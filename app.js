@@ -29,7 +29,6 @@ function randomNumber(min, max){
 
 function makeMagic(){
   $(this).parent().delay(500).slideUp(function(){
-    console.log($(this));
     $(this).remove();
   });
 }
